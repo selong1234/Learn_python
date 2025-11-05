@@ -77,6 +77,6 @@ class SMMS(object):
 
 if __name__ == "__main__":
     root = "https://sm.ms/api/v2/"
-    smms = SMMS("sk-lucifer", "1Lovesm@ms")
+    smms = SMMS("yourusername", "yourpassword")
     smms.get_api_token()
     smms.upload_image("1.jpg")
